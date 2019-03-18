@@ -1,7 +1,6 @@
 def roll_call_dwarves(dwarves)
-  number = 0
-  dwarves_arr = []
-  while number < 8
+  dwarves.each_with_index do |name , index|
+    index += 1
   puts"#{number}.*#{name}"
   end
 end
