@@ -1,5 +1,8 @@
-def roll_call_dwarves(dwarfs)
-
+def roll_call_dwarves(dwarves)
+  number = 0
+  dwarves_arr = []
+  whle number < 8
+  puts"#{number}.*#{name}"
 end
 
 def summon_captain_planet# code an argument here
